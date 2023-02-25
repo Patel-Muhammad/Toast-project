@@ -1,8 +1,8 @@
 # 🍞 Simple Toast
-This is a simple web application for displaying toast messages, built using HTML, CSS, and JavaScript. The app includes four types of toast messages: ✅ success, ❌ error, ⚠️ warning, and ℹ️ info.
+This is a simple web application for displaying toast 🔔 notification messages, built using HTML, CSS, and JavaScript. The app includes four types of toast messages: ✅ success, ❌ error, ⚠️ warning, and ℹ️ info.
 
 ## 🚀 Live demo
-This project is deployed on netlify, you can view it here http://toast-card.netlify.app
+This project is deployed on netlify, you can view it here https://toast-card.netlify.app
 
 ## 📷 Screenshot
 
