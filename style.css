@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #7f8c8d;
+    position: relative;
+}
+
+#btn-container{
+    display: flex;
+    width: 30rem;
+    justify-content:space-between;
+}
+
+button{
+    font-size: 16px;
+    display: block;
+    padding: 4px 10px;
+}
+
+
+#success, #error, #warning, #info {
+    background-color: #0ABF30;
+    border:1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    outline: none;
+    border-radius: 5px;
+    color:white;
+    transition: 0.2s all ease;
+}
+
+#success:hover,#error:hover, #warning:hover, #info:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#success:focus,#error:focus, #warning:focus, #info:focus {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#success:hover{
+    background-color: #09b12e;
+
+}
+
+#error{
+    background-color: #E24D4C;
+}
+#error:hover{
+    background-color: #c94444;
+}
+
+#warning{
+    background-color: #E9BD0C;
+}
+#warning:hover{
+    background-color: #d3ab0c;
+
+}
+
+#info{
+    background-color: #3498DB;
+}
+#info:hover{
+    background-color: #3190cf;
+
+}
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 12px 10px;
+    border-radius: 5px;
+    width: 18rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    user-select: none;
+    position: absolute;
+    transition: 0.3s all ease;
+    
+    right:-18rem;
+    top: 50px;
+}
+
+.addStyle{
+    right:1rem;
+}
+
+
+
+.fa-xmark{
+    color: #828282;
+    transition: 0.2s all ease;
+}
+.fa-xmark:hover{
+    transform: scale(1.09);
+    color: #4d4d4d;
+    cursor: pointer;
+}
+.fa-circle-check{
+    color: #0ABF30;
+}
+.fa-circle-xmark{
+    color: #E24D4C;
+}
+.fa-triangle-exclamation{
+    color: #E9BD0C;
+}
+.fa-circle-info{
+    color: #3498DB;
+}
